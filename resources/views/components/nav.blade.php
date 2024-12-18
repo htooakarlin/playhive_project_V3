@@ -1,4 +1,4 @@
-<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+<nav class="sb-topnav navbar navbar-expand navbar-dark global_background_color">
     <!-- Navbar Brand-->
     <a class="navbar-brand ps-3" href="index.html">PLAYHiVE</a>
     <!-- Sidebar Toggle-->

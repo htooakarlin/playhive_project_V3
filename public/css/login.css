@@ -1,0 +1,68 @@
+.login_container_mother{
+    margin-top: 40px;
+    background-color: #121212;
+}
+
+.header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 15px 10px;
+}
+
+.label_text{
+    width: 100%;
+}
+
+.input_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    position: relative;
+    width: 100%;
+}
+
+.input input{
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+.card_form{
+    width: 400px;
+}
+
+.rememberMe_cb_a{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.login_btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_btn_a{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_btn_a button{
+    margin: 0 0 5px 0;
+    padding: 8px;
+}
+
+.link_a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(106, 104, 104);
+    padding: 0;
+}
+
+.register_link_a{
+    padding-top: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

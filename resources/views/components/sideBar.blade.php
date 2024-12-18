@@ -1,5 +1,5 @@
 <div id="layoutSidenav_nav">
-    <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+    <nav class="sb-sidenav accordion sb-sidenav-dark side_nav_bar global_background_color" id="sidenavAccordion">
         <div class="sb-sidenav-menu">
             <div class="nav">
                 <a class="nav-link" href="index.html">
@@ -35,6 +35,12 @@
                 </a>
                 <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">Comedy</a>
+                        <a class="nav-link" href="#">Action</a>
+                        <a class="nav-link" href="#">Drama</a>
+                        <a class="nav-link" href="#">Comedy</a>
+                        <a class="nav-link" href="#">Action</a>
+                        <a class="nav-link" href="#">Drama</a>
                         <a class="nav-link" href="#">Comedy</a>
                         <a class="nav-link" href="#">Action</a>
                         <a class="nav-link" href="#">Drama</a>
