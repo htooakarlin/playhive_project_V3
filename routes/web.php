@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,16 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin', function(){
+    return view('admins.adminView');
+});
+
+Route::get('/users/movies', function () {
+    return view('users.movies');
+})->name('user.movies');
+
+Route::controller(AdminController::class)->group(function () {
+    Route::get('/admin', 'adminView')->name('admin.adminView');
+    Route::get('/admin/create', 'adminCreate')->name('admin.adminCreate');
+});

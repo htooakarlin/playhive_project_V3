@@ -10,11 +10,11 @@
                 </a>
                 <div class="collapse" id="collapseAdmin" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link drop_items" href="#">
+                        <a class="nav-link drop_items" href="{{ route('admin.adminView') }}">
                             <i class="fa-fw fa-solid fa-eye drop_items_icon"></i>
                             View
                         </a>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="{{ route('admin.adminCreate') }}">
                             <i class="fa-fw fa-solid fa-circle-plus drop_items_icon"></i>
                             Create
                         </a>

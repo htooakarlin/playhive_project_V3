@@ -2,11 +2,11 @@
     <nav class="sb-sidenav accordion sb-sidenav-dark side_nav_bar global_background_color" id="sidenavAccordion">
         <div class="sb-sidenav-menu">
             <div class="nav">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{ route('home') }}">
                     <div class="sb-nav-link-icon"><i class="fa-fw fa-solid fa-house"></i></div>
                     Home
                 </a>
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{ route('user.movies') }}">
                     <div class="sb-nav-link-icon"><i class="fa-fw fa-solid fa-clapperboard"></i></div>
                     Movies
                 </a>
