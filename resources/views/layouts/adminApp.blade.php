@@ -8,17 +8,17 @@
         <meta name="author" content="" />
         <title>PLAYHiVE</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
         <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed global_background_color">
-        @include('components.user.nav')
+        @include('components.admin.nav')
 
         <div id="layoutSidenav">
 
-            @include('components.user.sideBar')
+            @include('components.admin.sideBar')
 
             <div id="layoutSidenav_content">
 
@@ -26,7 +26,7 @@
                     @yield('content')
                 </main>
 
-                @include('components.user.footer')
+                @include('components.admin.footer')
 
             </div>
 

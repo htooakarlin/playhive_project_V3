@@ -11242,3 +11242,31 @@ body {
   font-size: 0.75rem;
   border-radius: 0.375rem !important;
 }
+
+.drop_items_icon{
+  height: 15px;
+  color: #424040;
+  margin-right: 5px;
+}
+
+.sb-sidenav-menu::-webkit-scrollbar {
+  width: 3.4px; /* Width of the scrollbar */
+  background-color: #121212; /* Background color of the scrollbar track */
+}
+
+/* Style the scrollbar thumb */
+.sb-sidenav-menu::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded edges for the thumb */
+}
+
+/* Style the thumb on hover */
+.sb-sidenav-menu::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker thumb on hover */
+}
+
+/* Optional: Add a corner if both horizontal and vertical scrollbars exist */
+.sb-sidenav-menu::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+}
+
