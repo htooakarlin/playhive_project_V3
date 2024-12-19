@@ -8,7 +8,7 @@
         <meta name="author" content="" />
         <title>PLAYHiVE</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-        <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
+        <link href="{{ asset('css/styles.css') }}" rel="stylesheet"/>
         <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -37,6 +37,7 @@
         {{-- <script src="{{ asset('assets/demo/chart-area-demo.js') }}"></script>
         <script src="{{ asset('assets/demo/chart-bar-demo.js') }}"></script> --}}
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
-        {{-- <script src="{{ asset('assets/demo/datatables-demo.js') }}"></script> --}}
+        <script src="{{ asset('assets/demo/datatables-demo.js') }}"></script>
+        <script src="{{ asset('js/datatables-simple-demo.js') }}"></script>
     </body>
 </html>

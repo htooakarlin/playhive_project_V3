@@ -10,7 +10,7 @@
                     <div class="sb-nav-link-icon"><i class="fa-fw fa-solid fa-clapperboard"></i></div>
                     Movies
                 </a>
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{ route('user.series') }}">
                     <div class="sb-nav-link-icon"><i class="fa-fw fa-solid fa-tv"></i></div>
                     Series
                 </a>

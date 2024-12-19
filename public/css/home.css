@@ -6,3 +6,67 @@
     width: 100%;
     height: 100vh;
 }
+
+.custom_table_header{
+    position: sticky;
+    top: 56px;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.custom_table_header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom_table_btn_area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom_table_btn_area .edit_btn{
+    background-color:white;
+    margin-right: 8px;
+}
+
+.custom_table_btn_area .edit_btn:hover{
+    background-color: #d3d3d3;
+}
+
+.custom_table_header .btn-danger{
+    border: none;
+}
+
+.custom_table_header .btn-danger:hover{
+    background-color: rgb(133, 4, 4);
+}
+
+.custom_table_selected{
+    background-color: #0df0d5 !important; /* Light blue */
+    box-shadow: none !important; /* Remove the inset shadow */
+}
+
+.custom_btn_add{
+    background-color: #121212;
+    color: white;
+}
+
+.custom_btn_add:hover{
+    background-color: #636161;
+    color: white;
+}
+
+#custom_type{
+    margin: 13px 10px 0px 6px;
+    padding: 4px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+#custom_type option{
+    border: none;
+}
